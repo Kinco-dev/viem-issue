@@ -1,36 +1,27 @@
 {
-    "name": "betswirl-api",
-    "private": true,
-    "scripts": {
-      "graphql": "npx graphclient build & vercel build"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/betswirl/api.git"
-    },
-    "author": "Romuald Hog <romuald@betswirl.com>",
-    "dependencies": {
-      "@balancer-labs/sdk": "^1.1.6-beta.10",
-      "@supabase/supabase-js": "^2.45.3",
-      "@uniswap/v3-periphery": "^1.4.4",
-      "@urql/core": "^4.2.2",
-      "axios": "^1.6.5",
-      "ethers": "^5.7.2",
-      "graphql": "^16.8.1",
-      "jsonschema": "^1.4.1",
-      "jwt-decode": "^4.0.0",
-      "lodash": "^4.17.21",
-      "validator": "^13.11.0",
-      "viem": "^2.21.9"
-    },
-    "devDependencies": {
-      "@graphprotocol/client-cli": "^3.0.0",
-      "@types/lodash": "^4.17.1",
-      "@types/node": "^22.5.4",
-      "@types/validator": "^13.11.10",
-      "@vercel/node": "^3.0.15",
-      "mobula-sdk": "^1.5.4",
-      "typescript": "^5.6.2"
-    }
+  "name": "betswirl-api",
+  "private": true,
+  "dependencies": {
+    "@balancer-labs/sdk": "^1.1.6-beta.10",
+    "@supabase/supabase-js": "^2.45.3",
+    "@uniswap/v3-periphery": "^1.4.4",
+    "@urql/core": "^4.2.2",
+    "axios": "^1.6.5",
+    "ethers": "^5.7.2",
+    "graphql": "^16.8.1",
+    "jsonschema": "^1.4.1",
+    "jwt-decode": "^4.0.0",
+    "lodash": "^4.17.21",
+    "validator": "^13.11.0",
+    "viem": "^2.21.9"
+  },
+  "devDependencies": {
+    "@graphprotocol/client-cli": "^3.0.0",
+    "@types/lodash": "^4.17.1",
+    "@types/node": "^22.5.4",
+    "@types/validator": "^13.11.10",
+    "@vercel/node": "^3.0.15",
+    "mobula-sdk": "^1.5.4",
+    "typescript": "^5.6.2"
   }
-  
+}

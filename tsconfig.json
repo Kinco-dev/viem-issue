@@ -1,16 +1,17 @@
 {
     "compilerOptions": {
       "skipLibCheck": true,
+      "skipDefaultLibCheck": true,
       "target": "ES2020",
       "moduleResolution": "node",
       "downlevelIteration": true,
       "resolveJsonModule": true,
       "esModuleInterop": true,
-      "strict": false,
+      "strict": true,
       "strictNullChecks": true,
       "allowSyntheticDefaultImports": true,
       "forceConsistentCasingInFileNames": true,
       "isolatedModules": true,
-    }
+    },
   }
   
