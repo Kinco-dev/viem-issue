@@ -1,17 +1,29 @@
 {
-    "compilerOptions": {
-      "skipLibCheck": true,
-      "skipDefaultLibCheck": true,
-      "target": "ES2020",
-      "moduleResolution": "node",
-      "downlevelIteration": true,
-      "resolveJsonModule": true,
-      "esModuleInterop": true,
-      "strict": true,
-      "strictNullChecks": true,
-      "allowSyntheticDefaultImports": true,
-      "forceConsistentCasingInFileNames": true,
-      "isolatedModules": true,
-    },
-  }
-  
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+    "moduleResolution": "Node",
+    "strict": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "noEmit": true,
+    "noImplicitReturns": true,
+    "skipLibCheck": true,
+    "baseUrl": "./",
+    "allowJs": true,
+    "incremental": true,
+    "jsx": "preserve"
+  },
+  "include": [
+    "**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
